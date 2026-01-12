@@ -24,7 +24,7 @@
 - **开箱即用**：封装为 `.cls` 文档类，用户只需专注于内容编写
 - **功能增强**：
   - 支持跨页显示，不再担心内容溢出
-  - 内置代码高亮样式（支持 Python、R、SQL 等）
+  - 内置代码高亮样式
   - 完善的数学公式支持
   - 自动生成目录和交叉引用
   - 适配 Git 版本控制
@@ -130,7 +130,6 @@ arcpy.Buffer_analysis("input", "output", "500 Meters")
 lzu-gis-report-template/
 ├── lzu-gis-report.cls    # 模板文档类文件
 ├── example.tex           # 完整示例文档
-├── 13.tex               # 原始实习报告示例
 ├── README.md            # 本说明文档
 ├── LICENSE              # MIT 许可证
 ├── .gitignore           # Git 忽略文件配置
